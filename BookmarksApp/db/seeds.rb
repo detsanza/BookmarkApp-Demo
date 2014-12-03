@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#
+   Bookmark.create(url:"http://bbc.co.uk
+",title:"Rails",comment:"love it",favourite:"true")
+
+
+   Bookmark.create(url:"http://bbc.co.uk",title:"ROR",comment:"love it",favourite:"true")
+
+   Bookmark.create(url:"http://zbc.co.uk",title:"Rails",comment:"love it",favourite:"true")
+
