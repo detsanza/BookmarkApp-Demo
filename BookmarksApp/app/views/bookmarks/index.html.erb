@@ -2,8 +2,10 @@
 
 
 <br/>
-<%@bookmarks.each do |bookmark|%>
+<ul>
+<%@bookmarks.each do |b|%>
 
-<%= bookmark.url%>
+<li><%=link_to(b.title,b.url)%>  <%= b.favourite%></li>
 
 <%end%>
+</ul>
